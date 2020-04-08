@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class MeowificatorTest {
-public static final String TEMP_HTML ="/Users/evan/Library/Preferences/IntelliJIdea2019.3/scratches/scratch.html";
+public static final String TEMP_HTML ="/Users/$user/Library/Preferences/IntelliJIdea2019.3/scratches/scratch.html";
     @Test
     public void test() throws Exception {
         String s = Meowificator.get();
